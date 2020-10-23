@@ -1,3 +1,4 @@
+#/mnt/boot/system-connections/balena-hotspot
 [connection]
 id=balena-hotspot
 uuid=36060c57-aebd-4ccf-aba4-ef75121b5f77
