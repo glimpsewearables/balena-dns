@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  dnsmasq:
+    build: ./dnsmasq
+    container_name: dnsmasq
+    restart: always
+    network_mode: host
+    entrypoint:
+      - sh
+      - ./start.sh
+    cap_add:
+      - NET_ADMIN
